@@ -1,6 +1,6 @@
 # Personal Finance Management API
 
-This project provides RESTful APIs for managing **budgets, expenses, savings, transactions, and users** in a **Personal Finance Management System**.
+This project provides RESTful APIs for managing **budgets, expenses, income, transactions, and users** in a **Personal Finance Management System**.
 
 ## **📌 API Endpoints**
 
@@ -18,11 +18,11 @@ This project provides RESTful APIs for managing **budgets, expenses, savings, tr
 - **`PUT /expense/{id}`** → Update expense by ID
 - **`DELETE /expense/{id}`** → Delete expense by ID
 
-### **3️⃣ Savings Service (`/savings`)**
-- **`POST /savings`** → Create a new savings account
-- **`GET /savings/{accountNumber}`** → Get savings details by account number
-- **`PUT /savings/update-balance/{accountNumber}`** → Update savings balance
-- **`GET /savings/total-savings/{accountNumber}`** → Fetch dynamically updated savings balance
+### **3️⃣ Income Service (`/income`)**
+- **`POST /income`** → Create a new income record
+- **`GET /income/{accountNumber}`** → Get income details by account number
+- **`PUT /income/update-balance/{accountNumber}`** → Update user balance based on income
+- **`GET /income/total-income/{accountNumber}`** → Fetch dynamically updated user balance
 
 ### **4️⃣ Transaction Service (`/transactions`)**
 - **`POST /transactions`** → Create a new transaction
@@ -49,5 +49,5 @@ This project provides RESTful APIs for managing **budgets, expenses, savings, tr
    ```sh
    mvn spring-boot:run
    ```
-3. **Access APIs via Postman or cURL**
+3. **Access APIs via Postman**
 
