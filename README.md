@@ -1,4 +1,5 @@
-Personal Finance Management API
+*Personal Finance Management API*
+
 This project provides RESTful APIs for managing budgets, expenses, income, transactions, and users in a Personal Finance Management System. It follows a microservices architecture and includes API Gateway for centralized routing and Eureka Server for service discovery.
 
 📦 Technologies Used
